@@ -1,0 +1,71 @@
+隐形贫困人口    不拘小节   带工休息    门庭若市    隐藏技能    ICU男    强行水逆    多行不义必自闭    默默努力    减肥餐    彩虹天    母亲时间    谈恋癌    返老还童    健身卡    小龙虾    云追星    狗    虾壳    走花路    逆苏粉    拖飞机    上胸    惊天大毒饼
+
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xab in position 8: illegal multibyte sequence
+
+        a　　　　　i　　　　　u　　　　e　　　　o
+a    あア　　　いイ　　　うゥ　　　えエ　　　おオ
+k    かカ　　　きキ　　　くク　　　けケ　　　こコ　　ｇ　がガ　ぎギ　ぐグ　げゲ　ごゴ
+s　さサ　　　しシ　　　すス　　　せセ　　　そソ　　ｚ　ざザ　じジ　ずズ　ぜゼ　ぞゾ
+t　たタ　　　ちチ　　　つツ　　　てテ　　　とト　　ｄ　だダ　ぢヂ　づヅ　でデ　どド
+n   なナ　　　にニ　　　ぬヌ　　　ねネ　　　のノ　　
+h　はハ　　　ひヒ　　　ふフ　　　へヘ　　　ほホ　　ｂ　ばバ　びビ　ぶブ　べベ　ぼボ　　ｐぱパ　ぴピ　ぷプ　ぺペ　ぽポ
+m　まマ　　　みミ　　　むム　　　めメ　　　もモ
+y　やヤ　　　　　　　　ゆユ　　　　　　　　よヨ
+r　らラ　　　りリ　　　るル　　　れレ　　　ろロ
+w　わワ　　　　　　　　　　　　　　　　　　をヲ
+ｎ　ん
+
+CRUD
+	* C
+
+
+	* R
+
+
+	* U
+
+
+	* D
+
+Schema DesignPerformance
+	* Storage Engines
+
+MMAPv1默认引擎。WiredTiger3.0之后引入的引擎，高并发支持。
+	* Index
+
+
+	* log
+
+
+	* profiling
+
+           profiler level
+
+		* 0 level : off
+		* 1 level : logs show queries
+		* 2 level : all my queries
+	* mongotop
+
+mongoDB的监控程序之一，监控数据库的读写的使用情况
+	* mongostat
+
+MongoDB的监控程序之一，监控数据库的增删改查，用量等情况
+
+Aggregation Framework
+
+	*
+Aggregate
+
+
+
+aggregation Pipeline
+$project     reshape
+$match      filter
+$group      aggregate
+$sort          sort
+$skip          skip
+$limit         limit
+$unwind    normalize
+$out           output
+$redact
+$geonear
