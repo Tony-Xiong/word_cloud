@@ -6,7 +6,5 @@ need install this packages
 
 - wordcloud
 
-- scipy
-
 - matplotlib
 
